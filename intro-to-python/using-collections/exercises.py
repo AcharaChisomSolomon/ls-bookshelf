@@ -14,3 +14,13 @@
 # list_from_tuple.pop(0)
 # new_tuple = tuple(list_from_tuple)
 # print(new_tuple)
+
+# 4
+pets = {
+    'Cat':  'Meow',
+    'Dog':  'Bark',
+    'Bird': 'Tweet',
+}
+print(pets['Dog'])
+print(pets.get("Lizard"))
+print(pets.get("Lizard", "<silence>"))
